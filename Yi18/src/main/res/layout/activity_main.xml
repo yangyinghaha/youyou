@@ -1,0 +1,102 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/navigation_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    >
+
+
+    <!-- 主界面 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/navigation_tab"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/navigation_radiogroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        style="@style/navagiong_tab"
+                        android:id="@+id/navigation_tab0"
+                        android:text="医药吧" />
+
+                    <RadioButton
+                        style="@style/navagiong_tab"
+                        android:id="@+id/navigation_tab1"
+                        android:text="医药吧" />
+
+                    <RadioButton
+                        style="@style/navagiong_tab"
+                        android:id="@+id/navigation_tab2"
+                        android:text="医药吧" />
+
+                    <RadioButton
+                        style="@style/navagiong_tab"
+                        android:id="@+id/navigation_tab3"
+                        android:text="医药吧" />
+
+                    <RadioButton
+                        style="@style/navagiong_tab"
+                        android:id="@+id/navigation_tab4"
+                        android:text="医药吧" />
+
+                </RadioGroup>
+
+                <View
+                    android:id="@+id/navigation_selected"
+                    android:layout_width="150dp"
+                    android:layout_height="3dp"
+                    android:background="@color/theme_color" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/theme_color" />
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/navigation_fragment"
+
+            />
+
+    </LinearLayout>
+
+
+    <!-- 抽屉界面的宽度不能是match_parent
+      小于320dp-->
+
+    <ListView
+        android:id="@+id/navigation_menu"
+        android:layout_width="250dp"
+        android:layout_gravity="start"
+        android:background="@color/theme_color"
+        android:layout_height="match_parent"/>
+
+
+
+</android.support.v4.widget.DrawerLayout>

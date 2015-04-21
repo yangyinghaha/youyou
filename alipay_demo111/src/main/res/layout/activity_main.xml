@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alex.day27_food.MainActivity" >
+
+    <EditText
+        android:id="@+id/ed_tableNmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        android:hint="编号" />
+    <TextView
+        android:id="@+id/tv_tableNmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/ed_tableNmb"
+        android:layout_alignBottom="@id/ed_tableNmb"
+        android:layout_toLeftOf="@id/ed_tableNmb"
+        android:text="桌号"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_listNumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ed_tableNmb"
+        android:text="单号： "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_listNumb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_listNumb"
+        android:layout_alignBottom="@id/ed_tableNmb"
+        android:text="1"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_below="@id/ed_tableNmb" ></ListView>
+    
+    <TextView
+        android:id="@+id/tv_money1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:text="消费金额:" />
+
+    <TextView
+        android:id="@+id/tv_money2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_money1"
+        android:layout_toRightOf="@id/tv_money1"
+        android:text="0.00元"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onclick"
+        android:text="下单" />
+
+    <Button
+        android:id="@+id/btn_resert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/ed_tableNmb"
+        android:onClick="onclick"
+        android:text="重置" />
+    <Button
+        android:id="@+id/btn_resert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/btn_resert"
+        android:onClick="onclick"
+        android:text="单号重置" />
+
+</RelativeLayout>

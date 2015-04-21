@@ -1,0 +1,2 @@
+D:\androidProject_keplar\MyApplication\pushexample\build\intermediates\classes\debug
+D:\androidProject_keplar\MyApplication\pushexample\build\intermediates\pre-dexed\debug\jpush-sdk-release1.7.3-3be65711f55d918b31ae56a3bee9d8a088e507c6.jar

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yi18</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="theme_color">#F00</color>
+    <color name="check_color">@color/theme_color</color>
+    <color name="unchecked_color">#000</color>
+
+    <style name="navagiong_tab">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/navigation_tabcolor</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="top_btn" parent="navagiong_tab">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:textColor">@color/navigation_tabcolor</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <string name="title_activity_details">DetailsActivity</string>
+
+</resources>

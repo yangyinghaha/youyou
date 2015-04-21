@@ -1,0 +1,5 @@
+D:\androidProject_keplar\MyApplication\alipay_demo111\build\intermediates\classes\debug
+D:\androidProject_keplar\MyApplication\alipay_demo111\build\intermediates\pre-dexed\debug\alipayutdid-30f2a4e917eb8f69cb19996958b8f313e124a05b.jar
+D:\androidProject_keplar\MyApplication\alipay_demo111\build\intermediates\pre-dexed\debug\alipaysecsdk-e108ba1834352f68235a38ef5a4c461440580170.jar
+D:\androidProject_keplar\MyApplication\alipay_demo111\build\intermediates\pre-dexed\debug\alipaysdk-183bf44be0f57382dd6e9d4620486d56fb12e2e1.jar
+D:\androidProject_keplar\MyApplication\alipay_demo111\build\intermediates\pre-dexed\debug\android-support-v13-f71bc68c8ef5e83ebcafe016c17e80203f1a5883.jar
